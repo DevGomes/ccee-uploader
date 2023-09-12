@@ -1,6 +1,6 @@
 <div>
     <mat-toolbar *ngIf="showProgressaBar" class="progress-bar">
-        <mat-progress-bar color="accent" [value]="progress" (animationEnd)="teste($event)"></mat-progress-bar>
+        <mat-progress-bar color="accent" [value]="progress" (animationEnd)="ocultarProgressBar($event)"></mat-progress-bar>
         <span class="progress">{{ progress }}%</span>
     </mat-toolbar>
 

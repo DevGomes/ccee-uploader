@@ -119,7 +119,7 @@ export class FileUploadComponent implements OnInit {
   }
 
 
-  teste(event: any): void {
+  ocultarProgressBar(event: any): void {
     this.showProgressaBar = false;
   }
 }
